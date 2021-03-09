@@ -171,6 +171,11 @@ padding-top:0;
 #articles{
     text-align: center;
 }
+.article-img{
+    all:initial;
+    width:50%;
+    margin:5%;
+}
 
 #footer{
         text-align: center;
@@ -190,6 +195,7 @@ padding-top:0;
         
       
 } 
+
 
 .footer-p{
         all:initial;
