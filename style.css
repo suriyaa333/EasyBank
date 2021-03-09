@@ -128,12 +128,9 @@ padding-top:0;
 
 
 
-@media (max-width:500px){
+@media only screen and (max-width:600px){
 .toggle-but{
     margin-left: auto;
-}
-.mybut1{
-    
 }
 
 .mycol1{
@@ -144,7 +141,22 @@ padding-top:0;
     
     padding: 0% !important;
     margin:0 !important;
-    width: 100%;
+   
+   
+}
+.bgimg1{
+    all: initial;
+    width:50%;
+    height:50%;
+    position: absolute;
+}
+.bgimg2{
+    all: initial;
+    position: absolute;
+    width:50%;
+    height:50%;
+  
+   
 }
 #middle{
     margin-top:70% !important;
