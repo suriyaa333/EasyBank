@@ -132,7 +132,7 @@ padding-top:0;
 
 
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:1200px){
 .toggle-but{
     margin-left: auto;
 }
