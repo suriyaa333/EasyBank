@@ -31,20 +31,24 @@ body{
   
     position:absolute;
    height:100%;
-       width:110%;
-    margin-left: 10%;
+       width:90%;
+   
     
 }
 .bgimg2{
     position:absolute;
     
-    left:30%;
+    left:20%;
     height:90%;
-    margin-left: 10%;
     
+}
+.row1{
+    height:100%;
+
 }
 .mycol2{
     height:100%;
+    padding-left: 0 !important;
    
 }
 .mycol1{
@@ -128,7 +132,7 @@ padding-top:0;
 
 
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:500px){
 .toggle-but{
     margin-left: auto;
 }
@@ -137,29 +141,31 @@ padding-top:0;
     padding: 0;
     text-align: center;
 }
+.mycol1{
+    height: fit-content;
+}
 .mycol2{
     
-    padding: 0% !important;
-    margin:0 !important;
-   
-   
+  all: initial;
+  position:relative;
+  bottom:25%;
+  
 }
 .bgimg1{
     all: initial;
-    width:50%;
-    height:50%;
     position: absolute;
+    left:20%;
 }
 .bgimg2{
     all: initial;
     position: absolute;
-    width:50%;
-    height:50%;
+   width: 50%;
+   left:20%;
   
    
 }
 #middle{
-    margin-top:70% !important;
+    margin-top:40% !important;
     text-align: center;
 }
 #articles{
